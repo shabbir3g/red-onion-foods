@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+.banner-section {
+  background-image: url("../src/images/bannerbackground.png");
+  height: 500px;
+  background-size: 111% ​;
+  background-position: center center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar-nav {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.navbar-nav a {
+  margin-left: 20px;
+}
+.footer-area {
+  background: rgb(14, 8, 8);
+  padding: 50px 0;
+}
+.footer-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer-menu li a {
+  text-decoration: none;
+  color: #fff;
 }
 
-.App-link {
-  color: #61dafb;
+.footer-bottom-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+}
+.footer-bottom-menu li {
+  display: inline;
+  margin-right: 20px;
+}
+.footer-bottom-menu li a {
+  text-decoration: none;
+  color: #fff;
+}
+.copyright-text {
+  color: #ccc;
+}
+a .food-card,
+a {
+  color: #000;
+  text-decoration: none !important;
+}
+.food-card img {
+  width: 200px;
+  margin: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.food-card:hover {
+  box-shadow: 1px 3px 22px -12px #000;
+  transition-duration: 0.5s;
+}
+.food-menu a,
+.food-menu a:hover {
+  color: #dc3545;
 }
